@@ -1,0 +1,64 @@
+.container {
+    background-color: antiquewhite;
+    padding: 0 0 0 0;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 10%;
+}
+.container-child-1 {
+    padding: 7% 0 7% 0;
+    flex: 1;
+    background-color: rgba(17, 36, 212, 0.795);
+    border-radius: 10%;
+}
+.container-child-2 {
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 10%;
+}
+.circle {
+    margin: 10% 0 10% 0;
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%; 
+    background-color: rgba(17, 36, 212, 0.705);
+    display: inline-block;
+    position: relative;
+}
+.circle-element-1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle-element-2 {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.great {
+    margin: 0% 0 5% 0;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.message {
+    padding: 0 15% 0 15%;
+    
+}
+
+.element {
+    color: white
+}
+
+.element.points {
+    font-family:monospace;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
