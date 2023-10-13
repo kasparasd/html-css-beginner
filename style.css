@@ -4,18 +4,13 @@
     display: flex;
     margin: auto;
     width: 80%;
-    text-align: center;
     border-radius: 10%;
 }
 .container-child-1 {
+    text-align: center;
     padding: 7% 0 7% 0;
     flex: 1;
     background-color: rgba(17, 36, 212, 0.795);
-    border-radius: 10%;
-}
-.container-child-2 {
-    flex: 1;
-    background-color: antiquewhite;
     border-radius: 10%;
 }
 .circle {
@@ -61,4 +56,31 @@
     font-size: 50px;
     padding-bottom: 20px;
 }
+.container-child-2 {
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    padding: 7% 0 7% 7%;
+}
 
+.summary {
+    background-color:aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    align-items: center;
+    
+    
+}
+.child-1 {
+    /* align-items: center; */
+    
+    
+}
+.child-2 {
+    
+    /* align-items: center; */
+
+
+
+}
