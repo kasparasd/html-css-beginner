@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     margin-left: calc(50% - 25%);
     width: 50%;
     border-radius: 10%;
@@ -32,7 +32,7 @@ body {
     height: 150px; 
     width: 150px; 
     border-radius: 50%; 
-    background-color: rgba(17, 36, 212, 0.705);
+    background-color: hsla(256, 72%, 46%, 1);
     display: inline-block;
     position: relative;
 }
@@ -74,15 +74,13 @@ body {
 .container-child-2 {
     float: right;
     width: 50%;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     border-radius: 10%;
     padding: 7% 7% 7% 7%;
 }
 
 .summary-element {
-    background-color: green;
     width: 100%;
-    border: 2px black solid;
     border-radius: 10px;
     height: 3rem;
     margin-bottom: 4%;
@@ -98,3 +96,12 @@ body {
     float: right;
 }
 
+.continue-button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
