@@ -100,8 +100,13 @@ body {
     background-color: hsl(224, 30%, 27%);
     color: white;
     padding: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 1.9rem;
     border-radius: 30px;
     text-align: center;
     cursor: pointer;
+}
+
+.summary {
+    margin-bottom: 1rem;
+    font-weight: 600;
 }
